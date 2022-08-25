@@ -285,15 +285,6 @@
 
     </LinearLayout>
 
-    <FrameLayout
-        android:id="@+id/tv_play_container"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:tag="vod_control_pause"
-        android:visibility="gone"
-        tools:visibility="visible">
-        
-
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -380,7 +371,6 @@
                 tools:text="100" />
         </LinearLayout>
 
-    </FrameLayout>
 
     <TextView
         android:id="@+id/tv_slide_progress_text"
