@@ -158,6 +158,7 @@ public class VodController extends BaseController {
         mPlayerTimeSkipBtn = findViewById(R.id.play_time_end);
         mPlayerTimeStepBtn = findViewById(R.id.play_time_step);
         mPlayPauseTime = findViewById(R.id.tv_sys_time);
+        mPlayLoadNetSpeed = findViewById(R.id.tv_play_show_net_speed);
         mPlayLoadNetSpeed = findViewById(R.id.tv_play_load_net_speed);
         mVideoSize = findViewById(R.id.tv_videosize);
 
