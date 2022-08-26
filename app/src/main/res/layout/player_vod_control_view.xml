@@ -63,6 +63,23 @@
                 android:text="[ 1024 x 768 ]"
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/ts_24" />
+            
+            
+            <TextView
+                android:id="@+id/tv_play_load_net_speed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/vs_20"
+                android:layout_marginRight="@dimen/vs_20"
+                android:layout_marginTop="@dimen/vs_10"
+                android:layout_gravity="right"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:padding="@dimen/vs_20"
+                android:tag="play_load_net_speed"
+                android:text="0"
+                android:textColor="@color/color_FFFFFF"
+                android:textSize="@dimen/ts_24" />
 
 
         </LinearLayout>
